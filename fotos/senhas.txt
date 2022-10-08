@@ -1,0 +1,8 @@
+email
+contato@edersonlopes.com
+senha:Dedas@147
+ 
+wordpress
+https://edersonlopes.com/wp-admin
+user: ederson_lopes
+senha: Dedas@147

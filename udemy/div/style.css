@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /*selecionando h1 e h2 de divs diferentes  */
+div h1,h2{
+    color: brown;
+    text-align: center;
+}
+/* selecionando uma div em especifica */
+div.container{
+    display: inline-block;
+    background-color: rgba(220, 20, 60, 0.315);
+    }
+/* selecionando uma div em especifico */
+div{
+        border: 3px solid;
+        background-color: rgba(25, 25, 112, 0.322);
+    }
+div.conteudo{
+    display: inline-block;
+    background-color: rgba(0, 139, 139, 0.329);
+
+}
+div.conteudo p{
+    color: deeppink;
+}
+div p:not(.princi) {
+    font-style: italic;
+}
+/* selecionando dois elementos irmaos dentro das divi, no caso selecionei todos os paragrafos que vem depois de um h1 */
+
+div h1+p:not(.princi){
+    color: firebrick;
+    font-size: 1.1em;
+    text-align: right;
+}
+
+div.check input{
+
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+/* alterando design do elemento ao passar o mouse */
+div.check input:hover{
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1) 100ms;
+    height: 40px;
+    width: 40px;
+    
+}
+/*  como o botao que eu coloquei vai se portar ao eu deixar ele marcado(checked) */
+div.check input:checked + p{
+    background-color: rgb(10, 241, 10);
+    opacity: 0;
+}
+/* coloquei um paragrafo abaixo, para interagir, selecionei o paragrafo com o seletor de irmaos, e configurei para que quando eu deixar o input marcado(checked) ele oculte o  paragrafo  */
+input:checked{
+    size: 3em;
+}
+input:hover{
+   color: indigo;
+   size: 3em;
+}
+/* usei a pesudo classe focus para alterar o design quando o input estiver sendo preenchido */
+div.text input:focus{
+    font-size: 2em;
+    width: 250px;
+    box-shadow: 2px 2px 2px 2px lightslategrey;     
+    color: rgb(1, 6, 14);
+    background-color: rgba(14, 88, 184, 0.219);
+
+}
+div.text input{    
+    border: 2px solid rgb(3, 43, 39);
+    border-radius: 0%;
+    margin-left: 10px;
+
+}
+div.text input::placeholder{
+    color: mediumblue;
+    text-align: center;
+   }
+div.text input:focus::placeholder{
+       content:"Parabens";
+       color: rgb(190, 10, 235);
+   }
+div.link{
+    color: lawngreen;
+    background-color: lightgray;
+    text-decoration: none;
+}
+div.link ul li{
+    text-decoration: none;
+    font-size: 23px;
+    font-style: italic;
+    color: lightseagreen;
+    
+} 
+div.link ul a:visited{
+    color: lightseagreen;
+    text-decoration: none;
+    font-size: 35px;
+}
+div.link ul li::after{
+     content:url(imagens/chain_connect_hyper_internet_link_security_web_icon_127072.png);
+     
+    }
+a{
+    text-decoration: none;
+    line-height:39px;
+    list-style-position: outside;
+}
+/* Nesta div consegui colocar duas cores em um unico paragrafo e tambem alterar a primeira letra do paragrafo */
+div div.paragrafo{
+ width: 470px;
+ background-color: mintcream;
+ font-size: 19px;
+}
+div div.paragrafo::first-line{
+    font-size: 50px;
+    color: orangered;
+}
+div div.paragrafo p::first-letter{
+    font-size: 94px;
+    float: left;
+}
+/* Como pode ser visto, ambas as div tem o mesmo tamanho, porem ao visualizar na net, isso de deve por conta do box-sizing */
+div.tamanhos{
+    width: 600px;
+    height: 80px;
+    margin: 10px;
+    padding: 10px;
+    overflow-y: hidden;
+}
+div.border{
+    box-sizing: border-box;
+    width: 600px;
+    height: 80px;
+    margin: 4px;
+    padding: 10px;
+    overflow-y: hidden;
+}
+#um{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 12px;
+    margin: 5px;
+    color: crimson;
+    border: 1px solid black;
+   
+
+}
+div div#dois{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 12px;
+    margin: auto;
+    text-align: center;
+    
+
+}
+
+    
+div.titulo{
+    display: inline-block;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    
+}
+header.topo{
+    height: 90px;
+    width: 100%;
+    border: 3px solid black;
+}
+div.menu{
+    width: 100%;
+    display: inline-block;
+    font-size: 19px;
+}

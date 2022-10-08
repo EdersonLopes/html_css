@@ -1,0 +1,136 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+      body{
+            box-sizing: border-box;
+            margin:0; 
+            font-size: 20px;
+            height: 3000px;
+            background-color:#3FE5EB
+        }
+        h3{
+            color: #445357;
+            text-align: center;
+        }
+        h1{
+         color: #3FE5EB;
+            border-bottom: turquoise;
+            text-align: end center;
+            margin: auto;
+            height: 100px;
+            text-align: center;
+            background-color: #819CA3 ; font-style: oblique;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        p{ text-align: center;}
+    nav{
+        background-color:#445357;
+        text-decoration: none;
+        position: fixed;
+        width: 100%;
+        height: 49px;
+    }
+    
+   nav.logo {
+       text-align: left;
+       color: honeydew;
+       float: left;
+       display: block;
+       
+      
+   }
+    nav a{
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: rgb(241, 237, 237);
+        display: block;
+        float: right;
+        padding: 1px 30px;
+}
+nav a:hover{
+    transition: 0,7s;
+    color: #ABCCD1;   
+    height: 100px;
+}
+a{
+    text-decoration: none;
+}
+main{
+background-color: rgb(248, 245, 245);
+margin: auto;
+padding: 1%;
+padding-top: 10px;
+width: 750px;
+border: 6px solid;
+border-color: #38C4EB;
+border-radius: 20px;
+height: 60px;
+text-align: center end;
+}
+main.contato{
+     font-family: 'Scheherazade New', serif;
+    margin: 0%;
+    text-align: center;
+    text-shadow: darkkhaki 2px 1px ;
+    height:370px;
+    width:300px;
+    padding-left: 55px;
+    padding-top: 1px;
+
+}
+li{
+    font-size: 30px;
+}
+p.frase{
+    margin-left: 150px;
+    height:5px;
+    margin-top: -260px;
+    margin-bottom: 10px;
+    font-family:'Ephesis', cursive;
+    font-size: 60px;
+    text-shadow: darkturquoise 3px 3px 2px;
+   
+    opacity: 1;
+    
+
+}
+
+
+main.home{
+
+    margin-top: 300px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 18px;
+    height:23px;
+    width: 160px;
+    border-color: transparent;
+    background-color: #849DA1;
+    color:whitesmoke;
+    text-decoration-color: #475557;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px black;
+
+}
+a{
+    color:white;
+}
+main.home :hover{
+    color:#ABCCD1;
+}
+@keyframes frase{
+    to{
+        opacity: 0;
+    }
+    from{
+        opacity: 1;
+    }
+
+}
