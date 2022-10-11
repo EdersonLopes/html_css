@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+}
+div#f1{
+    border-radius: 10px;
+    border: solid 1px coral;
+    height: 50vh;
+    width: 50vw;
+    background-color: blanchedalmond;
+}
+div#f2{
+    border-radius: 10px;
+    border: solid 1px blue;
+    height: 50vh;
+    width: 50vw;
+    background-image: linear-gradient(to bottom, red, green, blue);
+}
+div#f3 {
+    border-radius: 10px;
+    border: solid 1px skyblue;
+    height: 50vh;
+    width: 50vw;
+    background-image: url("imagens/fundo2.jpg");
+    background-position: center;
+    color: aliceblue;
+    text-align: center;
+    
+}
