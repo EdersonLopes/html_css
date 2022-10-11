@@ -100,4 +100,11 @@ div.forgot>p{
     font-family:'Cabin', sans-serif;
     text-align: center;
 }
-
+@media (max-width:550px){
+    html{
+        font-size: 70%;
+    }
+    main.caixa{
+        margin: auto;
+    }
+}
