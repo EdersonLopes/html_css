@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Colocando na pratica os conhecimentos de Formularios</h1>
+    </header>
+    <main>
+        <form action="">
+            
+                    <h1 id="titulo">Inscrição</h1>
+                    <p>Coloque suas informações corretamente</p>
+                <fieldset>
+                    <div id="fname">
+                        <strong><label for="fname" style="color: #011936 ;">Nome</label> <br></strong>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+                    <div id="lname">
+                        <strong><label for="lname" style="color: #011936 ;">Sobrenome </label> <br></strong>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+            </fieldset>
+            <fieldset>
+            <div id="email">
+                <strong><label for="email" id="email" style="color: #011936 ;">Email</label> <br></strong>
+                 <input type="email" name="email" id="email" required placeholder="abcd@abc.com">
+                </div>
+                 
+           </fieldset>
+
+            <div class="senioridade">
+                <strong><label for="senioridade"style="color: #011936 ;"> Senioridade <br></strong>
+                    <select name="senioridade" id="senioridade">
+                        <option value="">Escolha...</option>
+                        <option value="junior">Junior</option>
+                        <option value="pleno">Pleno</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </label>
+            </div>
+
+           
+            <div class="area">
+                <strong><label for="level" id="obj" style="color: #011936 ;">Qual a sua area de atuação?</label></strong><br>
+                <input type="radio" name="obj" id="obj"> Front-End
+                <input type="radio" name="obj" id="obj"> Back-End
+                <input type="radio" name="obj" id="obj"> Full-Stack<br>
+            </div>
+            
+             <div class="parceria">
+                 <strong><label for="parceria" style="color: #011936 ;"> Como chegou até a gente?</label><br></strong>
+                 <select name="parceria" id="par" size="1"><br>
+                    <option value="">Instagram</option><br>
+                    <option value="">Facebook</option>
+                    <option value="">Manual do mundo</option>
+                    <option value="">Nerdologia</option>
+                    <option value="">Outra Opção</option>
+                 </select><br>
+                 
+             </div>
+             <div id="tecnologia">
+                <strong><label for="tecnologia" style="color: #011936 ;">Quais as tecnologias que utiliza? <br></strong> </label>
+                    <input type="checkbox" name="HTML" id="html" class="tec" style="background-color: #C2EABD;"><abbr title="Linguagem de Marcação de HiperTexto">HTML</abbr>
+                    <input type="checkbox" name="css" id="css"class="tec"><abbr title="Folha de estilo em cascatas">CSS</abbr>
+                    <input type="checkbox" name="Javascript" id="Javascript"class="tec">Javascript
+                    <input type="checkbox" name="php" id="php"class="tec"><abbr title="Hypertext Preprocessor">PHP</abbr>
+                    <input type="checkbox" name="c" id="c"class="tec">C
+                    <input type="checkbox" name="C+" id="c+"class="tec">Phython <br>
+                    <input type="checkbox" name="c#" id="c#"class="tec">Java
+
+               
+             </div>
+             <div id="descriçao"> <br>
+                <strong><label for="descriçao" style="color:#011936;">Fale um pouco sobre a sua experiência como DEV<br></strong ></label>
+                    <textarea name="" id="sobre" cols="30" rows="8"></textarea>
+                
+             </div>
+            <input type="submit" value="Concluido" id="botao">
+
+        </form>
+    </main>
+    <footer>
+        
+    </footer>
+    
+</body>
+</html>

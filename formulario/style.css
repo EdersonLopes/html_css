@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    font-family: sans-serif;
+    
+}
+header{
+    display: none;
+    width: 100%;
+    height: 10vh;
+    background-color: #011936;
+    color: #C2EABD;
+    padding-top: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+h1#titulo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left:7% ;
+    color: #011936;
+}
+form>p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #465362;
+}
+main{
+    margin-left: 33%;
+    margin-top: 10px;
+}
+fieldset>div#fname {
+    border: 0px;
+    float: left;
+    margin-right: 5px;
+}
+fieldset{
+    border: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.senioridade, div.area, div.parceria{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input#email, input#lname, input#fname{
+    border-radius: 5px;
+    border: solid 1px #011936;
+    height: 20px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    
+
+}
+select#senioridade{
+    margin-top: 5px;
+    border-radius: 5px;
+    border: solid 1px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);;
+    
+}
+input#obj{
+    margin-top: 7px;
+    
+}
+select#par{
+    margin-top: 7px;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow:2px 2px 2px rgba(0, 0, 0, 0.2); ;
+}
+input.tec{
+    margin-top: 7px;
+    
+}
+textarea#sobre{
+    border-radius: 5px;
+
+    
+}
+input#botao{
+    width: 10vw;
+    height: 4vh;
+    margin-top: 5px;
+    margin-left: 5%;
+    border-radius: 6px;
+    border: 1px solid;
+    font-size: 1.3rem;
+    background-color: #011936;
+    color: white;
+}
+:focus{
+    background-color: #4653623b;
+    
+}
+abbr{
+    text-decoration: none;
+}
+input#botao:hover{
+    background-color: white;
+    color: #011936;
+    font-weight: bold;
+
+    
+}
